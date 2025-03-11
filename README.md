@@ -14,7 +14,7 @@ This project is a frontend application for managing loan applications. It is bui
 1. Clone the repository:
 
    ```sh
-   git clone https://github.com/yourusername/loan.git
+   git clone https://github.com/ahmadmarhaba/loan.git
    cd loan
    ```
 
