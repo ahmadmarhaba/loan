@@ -1,33 +1,65 @@
-# loan
+# Loan Application
 
-This template should help get you started developing with Vue 3 in Vite.
+This project is a frontend application for managing loan applications. It is built using Vue.js and Vite.
 
-## Recommended IDE Setup
+## Table of Contents
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- [Installation](#installation)
+- [Usage](#usage)
+- [Environment Variables](#environment-variables)
+- [License](#license)
 
-## Type Support for `.vue` Imports in TS
+## Installation
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+1. Clone the repository:
 
-## Customize configuration
+   ```sh
+   git clone https://github.com/yourusername/loan.git
+   cd loan
+   ```
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+2. Install dependencies:
 
-## Project Setup
+   ```sh
+   npm install
+   ```
 
-```sh
-npm install
+3. Create a `.env.local` file in the root directory and add the following variables:
+
+   ```env
+   VITE_CURRENCY_API=your_currency_api_key
+   VITE_LOAN_API=http://localhost:3003/v1
+   ```
+
+## Usage
+
+1. Start the development server:
+
+   ```sh
+   npm run dev
+   ```
+
+2. Build the project for production:
+
+   ```sh
+   npm run build
+   ```
+
+3. Preview the production build:
+
+   ```sh
+   npm run preview
+   ```
+
+## Environment Variables
+
+Create a `.env.local` file in the root directory and add the following variables:
+
+```env
+VITE_CURRENCY_API=your_currency_api_key
+VITE_LOAN_API=http://localhost:3003/v1
 ```
 
-### Compile and Hot-Reload for Development
+## License
 
-```sh
-npm run dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-npm run build
-```
+This project is licensed under the ISC License.
